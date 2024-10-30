@@ -1,5 +1,5 @@
 import "./index.css"
-import Body from './components/Landing/Body';
+import Body from './landing/Body';
 import Navbar from './components/Navbar';
 
 function App() {
