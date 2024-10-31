@@ -1,5 +1,6 @@
 import { useState } from "react";
 import NavList from "./NavList"
+import Aloud from "../assets/aloud.svg"
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -16,9 +17,9 @@ function Navbar() {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-[18px] font-bold whitespace-nowrap text-customPurpleLight">
-              aloud
-            </span>
+           <div className="mb-8 md:mb-0">
+            <img src={Aloud} alt="Aloud Logo" className="w-24" />
+          </div>
           </a>
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

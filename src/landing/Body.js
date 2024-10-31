@@ -23,26 +23,26 @@ const Body = () => {
 
         <div className="flex font-inter flex-col items-center mt-24 space-y-8">
           {/* Main Heading */}
-          <p className="text-5xl text-customTransparentBlue font-inter font-semibold text-center leading-tight">
+          <p className="text-[32px] text-customTransparentBlue -tracking-3 font-inter font-semibold text-center leading-tight md:text-[84px] ">
             Voice Only. Pure <br /> Connection.
           </p>
 
-          <p className="text-xl text-customGray text-center leading-tight font-inter font-normal">
+          <p className="text-[10px] text-customGray -tracking-3 text-center leading-tight font-inter font-normal md:text-[29px]">
             Connect with voices, not screens. Experience the <br />
             raw power of voice-only communication.
           </p>
 
-          <button className="px-8 py-3 text-lg font-inter font-medium text-customWhite bg-customTransparentBlue rounded-[36px] hover:bg-customGray">
+          <button className="w-[97.63px] h-[37px] -tracking-3 px-8 py-3 text-lg font-inter font-medium text-customWhite bg-customTransparentBlue rounded-[36px] hover:bg-customGray md:text-[25px] md:w-[263px] h-[72px]">
             Get Started
           </button>
         </div>
 
-        <div className="mt-28">
-          <p className="text-xl text-customGray text-center tracking-[-3%] leading-tight font-inter font-medium">
+        <div className="mt-28 md:mt-20">
+          <p className="text-[17px] -tracking-3 text-customGray text-center  leading-tight font-inter font-medium md:text-[32px]">
             Aloud is a unique voice-only chat app designed to foster authentic,
-            real- <br />
+            real- 
             time conversations. Forget the distractions of text and video; here,
-            your <br />
+            your 
             voice is the star.
           </p>
         </div>
