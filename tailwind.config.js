@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        '-3': '-0.039em', 
+      },
       colors: {
         customWhite: '#FFFFFF',
         customPurpleLight: '#8289FC',

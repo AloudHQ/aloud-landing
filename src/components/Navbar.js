@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed w-full bg-customWhite z-10 top-0 start-0">
+      <nav className="fixed font-inter w-full bg-customWhite z-10 top-0 start-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
