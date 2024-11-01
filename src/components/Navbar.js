@@ -1,6 +1,6 @@
 import { useState } from "react";
-import NavList from "./NavList"
-import Aloud from "../assets/aloud.svg"
+import NavList from "./NavList";
+import Aloud from "../assets/aloud.svg";
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -11,46 +11,31 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed font-inter w-full bg-customWhite z-10 top-0 start-0">
+      <nav className="fixed font-inter w-full px-8 bg-customWhite z-10 top-6 start-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-           <div className="mb-8 md:mb-0">
-            <img src={Aloud} alt="Aloud Logo" className="w-24" />
-          </div>
+            <div className="mb-2 md:mb-0">
+              <img src={Aloud} alt="Aloud Logo" className="w-[67px] md:w-24" />
+            </div>
           </a>
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-[#E68A00]  focus:outline-none focus:ring-2 focus:ring-customOrangeLight"
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-gray-200 rounded-full md:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-customOrangeLight"
               aria-controls="navbar-sticky"
               aria-expanded={isNavOpen}
               onClick={toggleNav}
             >
-              <span className="sr-only">Open main menu</span>
-              <svg
-                className="w-12 h-[9em]"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
+              <span>menu</span>
             </button>
           </div>
 
           <div
-            className={`font-neueEinstellung items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-300 ease-in-out ${
+            className={`font-inter items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-300 ease-in-out ${
               isNavOpen
                 ? "block opacity-100"
                 : "hidden opacity-0 md:block md:opacity-100"

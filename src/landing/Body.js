@@ -23,28 +23,28 @@ const Body = () => {
 
         <div className="flex font-inter flex-col items-center mt-24 space-y-8">
           {/* Main Heading */}
-          <p className="text-[32px] text-customTransparentBlue -tracking-3 font-inter font-semibold text-center leading-tight md:text-[84px] ">
+          <p className="text-[42px] text-customTransparentBlue -tracking-3 font-inter font-semibold text-center leading-tight md:text-[84px] ">
             Voice Only. Pure <br /> Connection.
           </p>
 
-          <p className="text-[10px] text-customGray -tracking-3 text-center leading-tight font-inter font-normal md:text-[29px]">
+          <p className="text-[13px] text-customGray -tracking-3 text-center leading-tight font-inter font-normal md:text-[29px]">
             Connect with voices, not screens. Experience the <br />
             raw power of voice-only communication.
           </p>
 
-          <button className="w-[97.63px] h-[37px] -tracking-3 px-8 py-3 text-lg font-inter font-medium text-customWhite bg-customTransparentBlue rounded-[36px] hover:bg-customGray md:text-[25px] md:w-[263px] h-[72px]">
+          <button className="w-[120px] h-[37px] text-[10px] -tracking-3t px-4 py-2 font-inter font-medium text-customWhite bg-customTransparentBlue rounded-[36px] hover:bg-customGray md:text-[25px] md:w-[263px] md:h-[72px]">
             Get Started
           </button>
         </div>
 
-        <div className="mt-28 md:mt-20">
-          <p className="text-[17px] -tracking-3 text-customGray text-center  leading-tight font-inter font-medium md:text-[32px]">
-            Aloud is a unique voice-only chat app designed to foster authentic,
-            real- 
-            time conversations. Forget the distractions of text and video; here,
-            your 
-            voice is the star.
-          </p>
+        <div className="flex justify-center items-center mt-20">
+          <div className="w-8/12 md:mt-20 mx-auto">
+            <p className="text-[17px] md:text-[32px] -tracking-3 text-customGray text-center leading-tight font-inter font-medium">
+              Aloud is a unique voice-only chat app designed to foster
+              authentic, real-time conversations. Forget the distractions of
+              text and video; here, your voice is the star.
+            </p>
+          </div>
         </div>
       </div>
 
