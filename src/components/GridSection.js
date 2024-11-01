@@ -4,11 +4,11 @@ export default function GridSection() {
   return (
     <div className="flex flex-col items-center -mt-28 gap-6 mx-auto px-4 md:px-0 md:w-[1024px]">
       <div className="w-full flex flex-col items-center font-inter mt-2 mb-8 md:flex-row md:mt-16 md:items-start">
-        <div className="w-full pl-8 md:w-1/2 pr-8">
+        <div className="w-full pl-8 md:w-1/2 pr-8 md:pl-2">
           <h2 className="text-[#7C7C7C] text-[32px] -tracking-3 font-semibold mb-2 text-center md:text-left">
             Coming Soon
           </h2>
-          <p className="text-[#9B9B9B] text-[19px] leading-6 -tracking-3 mx-auto text-center w-3/4 md:text-left">
+          <p className="text-[#9B9B9B] text-[19px] leading-6 -tracking-3 mx-auto text-center w-3/4 md:text-left md:mx-0">
             We’re working on more ways to enhance the post-booking travel
             experience.
           </p>
