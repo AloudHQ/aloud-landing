@@ -4,9 +4,9 @@ import Group8 from "../assets/group8.png";
 const AudioFeatureCard = () => {
   return (
     <div className="flex justify-center items-center -mt-32 min-h-screen">
-      <div className="h-[546px] mb-4 bg-[#E6E8FF] font-inter rounded-[27px] py-8 px-16 flex flex-col justify-between items-center w-[340px] md:w-[1024px] md:h-[540px] md:flex-row">
+      <div className="h-[536px] mb-4 bg-[#E6E8FF] font-inter rounded-[27px] py-8 px-16 flex flex-col justify-between items-center w-[340px] md:w-[1024px] md:h-[540px] md:flex-row">
         <div className="max-w-md text-center md:text-left">
-          <h3 className="text-[32px] font-medium -tracking-3 text-black mb-4  mx-auto md:w-full whitespace-nowrap md:mx-0 md:text-[45px]">
+          <h3 className="text-[32px] font-medium -tracking-3 text-black mb-4  mx-auto md:w-full md:whitespace-nowrap md:mx-0 md:text-[45px]">
             Voice-Only: A Bridge for All
           </h3>
           <p className="text-[14px] text-[#858180] -tracking-3 mb-8">
@@ -19,13 +19,15 @@ const AudioFeatureCard = () => {
           </button>
         </div>
         <div className="flex flex-col gap-6 items-center md:gap-4">
-          <div className="md:flex md:flex-col md:gap-4">
-            <div className="md:w-64 md:h-12 md:flex md:flex-col md:gap-4 md:items-center md:justify-center">
-              <img src={Group8} alt="" />
-              <img src={Group8} alt="" />
-            </div>
-          </div>
-        </div>
+  <div className="md:flex md:flex-col md:gap-4">
+    {/* Container for the two images with a gap */}
+    <div className="md:w-64 md:h-12 flex flex-col gap-4 items-center justify-center">
+      <img src={Group8} alt="" />
+      <img src={Group8} alt="" />
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
   );
