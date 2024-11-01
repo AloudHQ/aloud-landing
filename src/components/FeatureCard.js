@@ -31,7 +31,7 @@ const FeatureCard = () => {
           <div
             key={index}
             style={{ backgroundColor: item.bgColor, color: item.textColor }}
-            className="rounded-[27px] w-[376px] -tracking-3 p-4 pt-9  max-w-md flex flex-col justify-between"
+            className="rounded-[27px] w-[340px] h-[] -tracking-3 p-4 pt-9  max-w-md flex flex-col justify-between"
           >
             <p>{item.text}</p>
             <p style={{ color: item.titleColor }} className="mt-40 text-[45px] pl-2 -tracking-3">{item.title}</p>

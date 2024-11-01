@@ -50,18 +50,17 @@ const Body = () => {
 
       <FeatureCard />
 
-      <div className="flex flex-col justify-start pl-4 py-12 w-full">
-        <div className="text-left w-full">
-          <h2 className="text-[32px] font-semibold -tracking-3 text-[#7C7C7C] w-full whitespace-nowrap mb-4">
-            Reimagine the way you connect.
-          </h2>
-          <p className="text-[#9B9B9B] text-[16px] -tracking-3 leading-[26px] font-medium w-[45%]">
-            Join live, interactive roundtable discussions on a variety of
-            topics. Connect with like-minded individuals from around the world
-            and share your insights.
-          </p>
-        </div>
-      </div>
+      <div className="flex flex-col p-4 justify-center items-center md:justify-start md:pl-4 py-12">
+  <div className="text-center w-3/4 leading-8 md:text-left">
+    <h2 className="text-[32px] font-semibold -tracking-3 text-[#7C7C7C] mb-4 md:whitespace-nowrap">
+      Reimagine the way you connect.
+    </h2>
+    <p className="text-[#9B9B9B] mt-12 w-[279px] text-[16px] -tracking-3 leading-[26px] font-medium md:w-[45%] text-center mx-auto">
+      Join live, interactive roundtable discussions on a variety of topics. Connect with like-minded individuals from around the world and share your insights.
+    </p>
+  </div>
+</div>
+
 
       <AudioFeatureCard />
       <GridSection />
