@@ -4,7 +4,7 @@ const FeatureCard = () => {
   return (
     <>
       {/* Feature Cards Section */}
-      <div className="flex flex-col  md:flex-row md:space-x-8 space-y-8 md:space-y-0 p-4 justify-center items-center mt-36 font-inter font-medium">
+      <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 p-4 justify-center items-center mt-36 font-inter font-medium">
         {[
           {
             bgColor: '#E8E6E2A3',
@@ -31,10 +31,15 @@ const FeatureCard = () => {
           <div
             key={index}
             style={{ backgroundColor: item.bgColor, color: item.textColor }}
-            className="rounded-[27px] w-[340px] h-[] -tracking-3 p-4 pt-9  max-w-md flex flex-col justify-between"
+            className="rounded-[27px] w-[340px] h-[370px] -tracking-3 p-4 pt-9 max-w-md flex flex-col justify-between"
           >
             <p>{item.text}</p>
-            <p style={{ color: item.titleColor }} className="mt-40 text-[45px] pl-2 -tracking-3">{item.title}</p>
+            <p
+              style={{ color: item.titleColor }}
+              className="mt-auto text-[45px] pl-2 -tracking-3"
+            >
+              {item.title}
+            </p>
           </div>
         ))}
       </div>
