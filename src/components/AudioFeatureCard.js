@@ -9,7 +9,7 @@ const AudioFeatureCard = () => {
           <h3 className="text-[32px] font-medium -tracking-3 text-black mb-4  mx-auto md:w-full md:whitespace-nowrap md:mx-0 md:text-[45px]">
             Voice-Only: A Bridge for All
           </h3>
-          <p className="text-[14px] text-[#858180] -tracking-3 mb-8">
+          <p className="text-[16px] text-[#858180] -tracking-3 mb-8">
             Voice-only communication offers a unique advantage for individuals
             with visual impairments. By eliminating the need for visual cues, it
             creates a more inclusive and accessible experience.

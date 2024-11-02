@@ -82,10 +82,10 @@ const Body = () => {
 
       <div className="flex flex-col p-4 justify-center items-center md:justify-start md:pl-4 py-12 reveal">
         <div className="text-center w-full leading-8 md:text-left">
-          <h2 className="text-[32px] font-semibold -tracking-3 text-[#7C7C7C] mb-4 md:whitespace-nowrap">
+          <h2 className="text-[34px] font-semibold -tracking-3 text-[#7C7C7C] mb-4 md:whitespace-nowrap">
             Reimagine the way you connect.
           </h2>
-          <p className="text-[#9B9B9B] mt-12 text-center mx-auto w-5/6 md:w-[45%] text-[19px] -tracking-3 leading-[26px] font-medium  md:text-left md:mx-0">
+          <p className="text-[#9B9B9B] mt-6 text-center mx-auto w-5/6 md:w-[45%] text-[22px] -tracking-3 leading-[26px] font-medium  md:text-left md:mx-0">
             Join live, interactive roundtable discussions on a variety of topics. Connect with like-minded individuals from around the world and share your insights.
           </p>
         </div>

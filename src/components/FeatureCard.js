@@ -36,7 +36,7 @@ const FeatureCard = () => {
             <p>{item.text}</p>
             <p
               style={{ color: item.titleColor }}
-              className="mt-auto text-[45px] pl-2 -tracking-3"
+              className="mt-auto text-[48px] pl-2 -tracking-3"
             >
               {item.title}
             </p>
