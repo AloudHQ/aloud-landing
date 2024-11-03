@@ -43,7 +43,7 @@ const HeroSection = () => {
         ref={buttonRef}
         className="bg-customPurpleLight text-white px-8 py-3 rounded-full text-lg font-medium hover:bg--500 transition-all duration-300"
       >
-        Get Started
+        Get Start
       </button>
     </div>
   );

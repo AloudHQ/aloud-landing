@@ -14,16 +14,16 @@ const AudioFeatureCard = () => {
             with visual impairments. By eliminating the need for visual cues, it
             creates a more inclusive and accessible experience.
           </p>
-          <button className="bg-[#8289FC] w-[223px] h-[62px] text-white py-3 px-6 rounded-full text-lg hidden sm:block hover:bg-[#5B7FEC] transition-all duration-300">
+          <button className="bg-[#8289FC] w-[223px] h-[62px] text-white py-3 px-6 rounded-full text-lg hidden sm:block">
             Read Blog
           </button>
         </div>
         <div className="flex flex-col gap-6 items-center md:gap-4">
   <div className="md:flex md:flex-col md:gap-4">
     {/* Container for the two images with a gap */}
-    <div className="md:w-80 md:h-20 flex flex-col gap-4 items-center justify-center">
-      <img src={Group8} alt="" className="w-full h-auto" />
-      <img src={Group8} alt="" className="w-full h-auto" />
+    <div className="md:w-64 md:h-12 flex flex-col gap-4 items-center justify-center">
+      <img src={Group8} alt="" />
+      <img src={Group8} alt="" />
     </div>
   </div>
 </div>

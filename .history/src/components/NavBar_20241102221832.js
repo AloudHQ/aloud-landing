@@ -62,7 +62,7 @@ function Navbar() {
             }`}
             id="navbar-sticky"
           >
-            <NavList className="text-[16px] md:text-[18px]" />
+            <NavList />
           </div>
         </div>
       </nav>

@@ -3,7 +3,7 @@ import Aloud from "../assets/aloud.svg";
 
 export default function Footer() {
   return (
-    <footer className="font-inter pt-16 pb-4 text-gray-700 mt-16 mb-12">
+    <footer className="font-inter pt-12 pb-4 text-gray-700">
       <div className="max-w-screen-lg mx-auto px-4 md:px-0 text-center">
         <div className="flex flex-col justify-between items-center mb-8 md:flex-row">
           {/* Logo */}
