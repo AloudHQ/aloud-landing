@@ -136,6 +136,9 @@ const Body = () => {
       <div ref={featureCardsRef}>
         <FeatureCard />
       </div>
+      <div ref={featureSectionRef}>
+        <FeatureSection />
+      </div>
 
       <div ref={audioFeatureRef}>
         <AudioFeatureCard />

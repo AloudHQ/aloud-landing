@@ -46,7 +46,7 @@ const NavList = () => {
             >
               <span className="absolute left-2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
                 <item.icon
-                  size="20"
+                  size="18"
                   className={`
                     transform transition-all duration-200
                     ${activeItem === index ? 'text-[#8289FC]' : 'text-gray-400'}
@@ -54,7 +54,7 @@ const NavList = () => {
                   `}
                 />
               </span>
-              <span className="font-medium pl-6 text-[20px]">{item.label}</span>
+              <span className="font-medium pl-6 text-[24px]">{item.label}</span>
             </a>
           </li>
         ))}

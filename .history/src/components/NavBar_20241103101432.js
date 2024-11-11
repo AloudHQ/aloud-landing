@@ -33,14 +33,12 @@ function Navbar() {
     <>
       <nav className="fixed font-inter w-full px-8 bg-customWhite z-10 top-0 start-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <div className="mb-2 md:mb-0">
+          <div className="flex items-center justify-between">
+            <div className="logo">
               <img src={Aloud} alt="Aloud Logo" className="w-[67px] md:w-24" />
             </div>
-          </a>
+            <NavList />
+          </div>
 
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
@@ -62,7 +60,7 @@ function Navbar() {
             }`}
             id="navbar-sticky"
           >
-            <NavList className="text-[16px] md:text-[18px]" />
+            <NavList />
           </div>
         </div>
       </nav>

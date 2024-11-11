@@ -14,7 +14,7 @@ const AudioFeatureCard = () => {
             with visual impairments. By eliminating the need for visual cues, it
             creates a more inclusive and accessible experience.
           </p>
-          <button className="bg-[#8289FC] w-[223px] h-[62px] text-white py-3 px-6 rounded-full text-lg hidden sm:block hover:bg-[#5B7FEC] transition-all duration-300">
+          <button className="bg-[#8289FC] w-[223px] h-[62px] text-white py-3 px-6 rounded-full text-lg hidden sm:block font-semibold">
             Read Blog
           </button>
         </div>

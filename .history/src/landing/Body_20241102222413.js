@@ -17,7 +17,6 @@ const Body = () => {
   const featureCardsRef = useRef(null);
   const audioFeatureRef = useRef(null);
   const gridSectionRef = useRef(null);
-  const descriptionRef = useRef(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -56,19 +55,6 @@ const Body = () => {
       duration: 0.6,
       stagger: 0.15,
     });
-
-    // Text color animation
-    gsap.to(descriptionRef.current, {
-      scrollTrigger: {
-        trigger: descriptionRef.current,
-        start: "top center+=200",
-        end: "center center",
-        scrub: true,
-      },
-      color: "var(--transparent-blue)", // Using CSS variable to match logo color
-      ease: "power1.inOut",
-      duration: 1,
-    });
     
     const sr = ScrollReveal({
       origin: "bottom",
@@ -81,6 +67,7 @@ const Body = () => {
 
     sr.reveal(".reveal", { interval: 200 });
 
+    
     AOS.init({
       duration: 800, 
       easing: 'ease-in-out',
@@ -89,6 +76,7 @@ const Body = () => {
     });
   }, []);
 
+  
   return (
     <main className="mt-20 max-w-screen-lg mx-auto px-4">
       <div>
@@ -103,6 +91,8 @@ const Body = () => {
           <img src={Ellipse4} className="absolute ml-[6rem]" alt="" />
           <img src={Ellipse5} className="absolute ml-[10rem]" alt="" />
         </div>
+
+
 
         <div className="flex font-inter flex-col items-center mt-24 space-y-8 reveal">
           {/* Main Heading */}
@@ -121,10 +111,7 @@ const Body = () => {
 
         <div className="flex justify-center items-center mt-20 reveal">
           <div className="w-8/12 md:mt-20 mx-auto">
-            <p 
-              ref={descriptionRef}
-              className="text-[17px] md:text-[32px] -tracking-3 text-customGray text-center leading-tight font-inter font-medium transition-colors duration-500"
-            >
+            <p className="text-[17px] md:text-[32px] -tracking-3 text-customGray text-center leading-tight font-inter font-medium">
               Aloud is a unique voice-only chat app designed to foster
               authentic, real-time conversations. Forget the distractions of
               text and video; here, your voice is the star.
